@@ -73,8 +73,9 @@
                 </section>
 
                 <section data-state="blue2">
-                    <h2>BENEFITS OF FRAMEWORKS</h2>
-
+                    <section data-state="blue2">
+                        <h2>BENEFITS OF FRAMEWORKS</h2>
+                    </section>
                     <section data-state="blue2">
                         <h1 class="adelle" style="text-align: left; font-size: 96px; line-height: 120px">Develop <i style="font-weight: bold;" class="dark-font">your</i> application, not a framework.</h1>
                     </section>
@@ -89,10 +90,12 @@
 
 
                 <section data-state="blue2">
-                    <h2>BENEFITS OF EMBER</h2>
-                    <p></p>
+                    <section data-state="blue2">
 
+                        <h2>BENEFITS OF EMBER</h2>
+                        <p></p>
 
+                    </section>
                     <section data-state="blue2">
                         <h1>Useful URLs</h1>
                     </section>
@@ -103,10 +106,32 @@
                     </section>
                 </section>
 
-                <section data-state="blue2">
+                <section data-state="blue">
+                    <h1 style="text-align: left;font-family: atrament-web" >Creating the application:</h1>
+                    <br>
                     <pre><code data-trim>
+                        Pg = Ember.Application.create();
                     </code></pre>
+                    <br>
+                    <h3 class="fragment roll-in adelle off-white-font">That's it!</h3>
                 </section>
+                <section data-state="blue">
+                    <section data-state="blue">
+                        <h1 style="text-align: left;font-family: atrament-web">The Router</h1>
+                        <br>
+                        <pre><code data-trim>
+Pg.Router.map(function() {
+    this.route('index', {path: '/'});
+    this.resource('galleries', function(){
+      this.route('new');
+      this.route('show', {path: '/:gallery_id'})
+    });
+    this.resource('photo', {path: '/photos/:photo_id'});
+});
+                        </code></pre>
+                    </section>
+                </section>
+
                 <section data-state="yellow">
 						<h1>RESOURCES</h1>
 				</section>

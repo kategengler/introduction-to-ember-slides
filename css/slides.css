@@ -60,3 +60,8 @@
     font-weight: 200 !important;
     font-family: motor, sans-serif !important;
 }
+
+.reveal code {
+    font-size: 1.3em;
+    line-height: 1.7em;
+}
