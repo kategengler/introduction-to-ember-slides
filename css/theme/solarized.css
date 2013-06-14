@@ -29,7 +29,7 @@ body {
   font-size: 36px;
   font-weight: 200;
   letter-spacing: -0.02em;
-  color: #657b83; }
+}
 
 ::selection {
   color: white;
@@ -46,11 +46,9 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #586e75;
-  font-family: "League Gothic", Impact, sans-serif;
+  font-family: "pt sans", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
   text-shadow: none; }
 
 .reveal h1 {

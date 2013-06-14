@@ -1,0 +1,36 @@
+
+.red body {
+    background: #E4392F;
+    color: #ECEAF5;
+}
+
+.blue body {
+    background: #3F5E63;
+    color: #F1D574;
+}
+
+.blue2 body {
+    background: #3F5E63;
+    color: #ECEAF5;
+}
+
+.yellow body {
+    background: #F1D574;
+    color: #3F5E63;
+}
+
+#slide-1-top-header {
+    text-align: left;
+    font-family: "pt sans", Impact, sans-serif;
+    text-transform: none;
+    margin-bottom: .2em;
+}
+
+#slide-1-bottom-header {
+    text-align: left;
+    font-family: "pt sans";
+    font-weight: bold;
+    text-transform: none;
+    font-size: 2.3em;
+    line-height: 1em;
+}

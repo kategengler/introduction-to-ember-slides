@@ -16,8 +16,9 @@
 
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+        <link rel="stylesheet" href="css/slides.css">
 
-		<!-- For syntax highlighting -->
+        <!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
@@ -28,6 +29,9 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+
+        <script type="text/javascript" src="//use.typekit.net/wco3aoi.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	</head>
 
 	<body>
@@ -37,11 +41,12 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 
-				<section>
-					<h1>jQuery isn't enough: An introduction to Ember.js</h1>
+				<section data-state="red">
+					<h2 id="slide-1-top-header">jQuery isn't enough:</h2>
+                    <h1 id="slide-1-bottom-header">An introduction to Ember.js</h1>
 				</section>
 
-				<section>
+				<section data-state="blue">
 					<h2>Heads Up</h2>
 					<p>
 						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
@@ -54,7 +59,7 @@
 				</section>
 
 				<!-- Example of nested vertical slides -->
-				<section>
+				<section data-state="yellow">
 					<section>
 						<h2>Vertical Slides</h2>
 						<p>
@@ -85,7 +90,7 @@
 					</section>
 				</section>
 
-				<section>
+				<section data-state="blue2">
 					<h2>Slides</h2>
 					<p>
 						Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
