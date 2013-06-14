@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="blue">
 
 	<head>
 		<meta charset="utf-8">
@@ -46,7 +46,7 @@
                     <h1 id="slide-1-bottom-header">An introduction to Ember.js</h1>
 				</section>
 
-				<section data-state="blue">
+				<section >
 					<h2>@katiegengler</h2>
                     <br>
 
@@ -60,7 +60,7 @@
                     <h1 class="yellow-font adelle fragment roll-in">Abstraction</h1>
                 </section>
 
-                <section data-state="blue">
+                <section >
                     <h2 class="adelle">What is Ember?</h2>
                     <h3 class="fragment roll-in off-white-font">"A framework for creating ambitious web applications."</h3>
                     <aside class="notes">
@@ -106,7 +106,7 @@
                     </section>
                 </section>
 
-                <section data-state="blue">
+                <section >
                     <h1 style="text-align: left;font-family: atrament-web" >Creating the application:</h1>
                     <br>
                     <pre><code data-trim>
@@ -115,8 +115,8 @@
                     <br>
                     <h3 class="fragment roll-in adelle off-white-font">That's it!</h3>
                 </section>
-                <section data-state="blue">
-                    <section data-state="blue">
+                <section >
+                    <section >
                         <h1 style="text-align: left;font-family: atrament-web">The Router</h1>
                         <br>
                         <pre><code data-trim>
@@ -130,6 +130,25 @@ Pg.Router.map(function() {
 });
                         </code></pre>
                     </section>
+                    <section >
+                        <h2 style="text-align: left;">Route Definition</h2>
+                        <pre><code data-trim>
+Pg.GalleriesIndexRoute = Ember.Route.extend({
+    model: function(){
+        return Pg.Gallery.find();
+    }
+});
+                        </code></pre>
+                    </section>
+                    <section >
+                        <h2 style="text-align: left;">linkTo Helper</h2>
+                        <pre><code data-trim>
+                            {{#linkTo "galleries.index"}}Galleries{{/linkTo}}
+                        </code></pre>
+                    </section>
+                </section>
+                <section >
+                    <h1 style="text-align: left; font-family: atrament-web">Templates</h1>
                 </section>
 
                 <section data-state="yellow">

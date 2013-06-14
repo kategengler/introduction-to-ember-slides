@@ -1,12 +1,11 @@
+.blue body {
+    background: #3F5E63;
+    color: #F1D574;
+}
 
 .red body {
     background: #E4392F;
     color: #ECEAF5;
-}
-
-.blue body {
-    background: #3F5E63;
-    color: #F1D574;
 }
 
 .blue2 body {
