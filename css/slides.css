@@ -19,6 +19,18 @@
     color: #3F5E63;
 }
 
+.yellow-font {
+    color: #F1D574;
+}
+
+.off-white-font {
+    color: #ECEAF5;
+}
+
+.dark-font {
+    color: #180B12;
+}
+
 #slide-1-top-header {
     text-align: left;
     font-family: "pt sans", Impact, sans-serif;
@@ -38,6 +50,10 @@
 .atrament-bold {
     font-family: 'atrament-web' !important;
     font-weight: bold !important;
+}
+
+.adelle {
+    font-family: 'adelle' !important;
 }
 
 .logo {
