@@ -42,11 +42,15 @@
 			<div class="slides">
 
 				<section data-state="red">
-					<h2 id="slide-1-top-header">jQuery isn't enough:</h2>
+                    <h2 id="slide-1-top-header">jQuery isn't enough:</h2>
                     <h1 id="slide-1-bottom-header">An introduction to Ember.js</h1>
+                    <p class="adelle" style="color:black;text-align:left;font-size: 0.5em;margin-top: 6em;">Katie Gengler <br> jQuery Conference 2013: Portland</p>
 				</section>
 
-				<section >
+
+
+
+                <section >
 					<h2>@katiegengler</h2>
                     <br>
 
@@ -138,7 +142,7 @@
                     </section>
 
                     <section data-state="blue2">
-                        <h1>Handles event delegation and View Hierarchy</h1>
+                        <h1 style="font-family: atrament-web">Handles event delegation and View Hierarchy</h1>
                         <aside class="notes">
                             Let's see what I mean ->
                         </aside>
@@ -146,7 +150,7 @@
 
 
                     <section data-state="blue2">
-                        <h1>Cares about performance. Cleans up after you.</h1>
+                        <h1 style="font-family: atrament-web">Cares about performance. <br> Cleans up after you.</h1>
                         <aside class="notes">
                             Let's see what I mean ->
                         </aside>
@@ -221,10 +225,12 @@ Pg.PhotoController = Ember.ObjectController.extend({
                 <section data-state="yellow">
 
 						<h1>RESOURCES</h1>
-                    <ul>
-                        <li>guides.emberjs.com</li>
-                        <li>discuss.emberjs.com</li>
-                        <li>emberwatch.com</li>
+                    <ul style="list-style: none;">
+                        <li><a href="guides.emberjs.com">Ember Guides</a></li>
+                        <li><a href="discuss.emberjs.com">Ember Discourse</a></li>
+                        <li><a href="emberwatch.com">emberwatch.com</a></li>
+                        <li><a href="ember101.com">Ember 101 (Screencasts)</a></li>
+                        <li><a href="embercasts.com">Embercasts</a></li>
                     </ul>
 				</section>
 
@@ -240,8 +246,9 @@ Pg.PhotoController = Ember.ObjectController.extend({
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: false,
+				controls: true,
 				progress: true,
+                rollingLinks:false,
 				history: true,
 				center: true,
                 width: 1024,
